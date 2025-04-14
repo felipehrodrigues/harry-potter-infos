@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #1e1e2f;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9d342;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.links a {
+  color: #f9d342;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #fff;
+}
+
+h2 a {
+  text-decoration: none; /* remove sublinhado */
+  color: inherit; /* herda a cor do pai (no caso, h2) */
+}
+
+h2 a:hover {
+  color: #fff;
+}

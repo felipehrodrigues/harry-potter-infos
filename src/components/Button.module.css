@@ -1,0 +1,141 @@
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.botao_todos {
+    width: 15em;
+    height: 3em;
+    background-color: #6a5acd;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.botao_todos:hover {
+    background-color: #2A1B1B;
+    box-shadow: 0 0 15px #D4AF37;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    color: white
+  }
+
+.botao_Gryffindor{
+    background-color: #6a5acd;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    width: 15em;
+    height: 3em;
+}
+
+.botao_Slytherin{
+    background-color: #6a5acd;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    width: 15em;
+    height: 3em;
+}
+
+.botao_Ravenclaw{
+    background-color: #6a5acd;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    width: 15em;
+    height: 3em;
+}
+
+.botao_Hufflepuff{
+    background-color: #6a5acd;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    width: 15em;
+    height: 3em;
+}
+
+
+.botao_Gryffindor:hover {
+    background-color: #A11212;
+  box-shadow: 0 0 15px #D4AF37;
+  color: #fff;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.botao_Slytherin:hover {
+    background-color: #2E7D32;
+    box-shadow: 0 0 15px #00FFAB;
+    color: #fff;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.botao_Ravenclaw:hover {
+    background-color: #155eb8;
+    box-shadow: 0 0 15px #8AB6D6;
+    color: #fff;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.botao_Hufflepuff:hover {
+    background-color: #FFC107;
+    box-shadow: 0 0 15px #FFF176;
+    color: #000;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.botoes_casa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+    gap: 10px;
+    margin: 0;
+    color: 	#3A506B;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,88 @@
+body {
+    background-color: #1C1C1C ;
+    color: #D4AF37;
+}
+
+h1 {
+    font-family: 'Harry Potter', sans-serif;
+    letter-spacing: 6px;
+}
+
+.texto_apresentacao {
+    margin: 1em 2em ;
+}
+
+.input_pesquisa {
+    width: 20em;
+    height: 3em;
+    color: #d4af37;
+    background-color: #3e2f2f;
+    margin: 3em 1em;
+    border: 1px solid #d4af37;;
+    border-radius: 10px;
+}
+
+.input_pesquisa::placeholder {
+    color: #d4af37;
+    text-align: center;
+}
+
+button {
+    font-family: 'Spectral', serif;
+}
+
+p {
+    font-family: 'Spectral', serif;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+img {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.personagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.card_personagens {
+    background-color: #3E2F2F;
+    padding: 1em;
+    margin: 0.5em;
+    word-wrap: break-word; 
+    white-space: normal; 
+    width: 150px;
+    height: 30em;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: start; 
+    text-align: center; 
+    border-radius: 10px;
+    overflow-y: auto;
+    scrollbar-width: thin; 
+    scrollbar-color: #D4AF37 #3E2F2F;
+}
+
+.card_personagens:hover {
+    background-color: #2A1B1B;
+    box-shadow: 0 0 20px #D4AF37, 0 0 10px #7B1E22;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+

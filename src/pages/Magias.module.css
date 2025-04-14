@@ -1,0 +1,67 @@
+.texto_apresentacao {
+  margin: 1em 2em;
+}
+
+.input_pesquisa {
+    width: 20em;
+    height: 3em;
+    color: #d4af37;
+    background-color: #3e2f2f;
+    margin: 1em;
+    border: 1px solid #d4af37;;
+    border-radius: 10px;
+    margin-bottom: 3em;
+}
+
+.input_pesquisa::placeholder {
+    color: #d4af37;
+    text-align: center;
+}
+
+
+.container_magias {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.lista_magias {
+  width: 150px;
+  height: 15em;
+  background-color: #3e2f2f;
+  padding: 1em;
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  border-radius: 10px;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #d4af37 #3e2f2f;
+}
+
+.lista_magias::-webkit-scrollbar {
+  width: 6px;
+}
+.lista_magias::-webkit-scrollbar-thumb {
+  background-color: #d4af37;
+  border-radius: 10px;
+}
+.lista_magias::-webkit-scrollbar-track {
+  background: #3e2f2f;
+}
+
+.lista_magias:hover {
+  background-color: #2a1b1b;
+  box-shadow: 0 0 20px #d4af37, 0 0 10px #7b1e22;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
