@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/felipehrodrigues/harry-potter-infos/static/css/main.79b2ff47.css",
+    "main.js": "/felipehrodrigues/harry-potter-infos/static/js/main.87ce7d7e.js",
+    "static/js/453.d000a474.chunk.js": "/felipehrodrigues/harry-potter-infos/static/js/453.d000a474.chunk.js",
+    "index.html": "/felipehrodrigues/harry-potter-infos/index.html",
+    "static/media/logo.svg": "/felipehrodrigues/harry-potter-infos/static/media/logo.1b447e79cf5aca153008f1dd9f680a5d.svg",
+    "main.79b2ff47.css.map": "/felipehrodrigues/harry-potter-infos/static/css/main.79b2ff47.css.map",
+    "main.87ce7d7e.js.map": "/felipehrodrigues/harry-potter-infos/static/js/main.87ce7d7e.js.map",
+    "453.d000a474.chunk.js.map": "/felipehrodrigues/harry-potter-infos/static/js/453.d000a474.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79b2ff47.css",
+    "static/js/main.87ce7d7e.js"
+  ]
+}
