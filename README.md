@@ -1,6 +1,6 @@
 # 🧙‍♂️ Harry Potter Infos
 
-Aplicação desenvolvida em **React** que consome a API pública de Harry Potter para exibir uma lista de personagens com visual moderno, navegação entre os cards, sistema de filtros e busca. Também é possível visualizar as magias do universo HP.
+Aplicação desenvolvida em **React** que consome a API pública de Harry Potter para exibir uma lista de personagens, sistema de filtros e busca. Também é possível visualizar as magias do universo HP.
 
 ## 🔗 Acesse o projeto online
 
