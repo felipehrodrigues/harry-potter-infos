@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className={styles.container}>
       <h1 className={styles.titulo}>✨ Bem-vindo ao Mundo de Harry Potter ✨</h1>
-      <p className={styles.descricao}>Explore os personagens e as magias do Mundo Bruxo.</p>
+      <p className={styles.descricao}>Explore os personagens e as magias do mundo Bruxo.</p>
 
       <div className={styles.botoes}>
         <Link to="/personagens" className={styles.botao}>
