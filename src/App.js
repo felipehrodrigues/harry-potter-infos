@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Personagens from './pages/Personagens';
 import Magias from './pages/Magias';
@@ -13,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/harry-potter-infos">
+      <BrowserRouter>
       <Navbar></Navbar>
       <Routes>
       <Route path='/' element={<Home />} />
