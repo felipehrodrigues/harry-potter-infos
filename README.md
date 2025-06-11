@@ -4,7 +4,7 @@ Aplicação desenvolvida em **React** que consome a API pública de Harry Potter
 
 ## 🔗 Acesse o projeto online
 
-👉 [Acesse aqui via GitHub Pages](https://felipehrodrigues.github.io/harry-potter-infos)
+👉 [Acesse aqui]([https://felipehrodrigues.github.io/harry-potter-infos](https://vercel.com/felipe-rodrigues-projects-1cdf950b/harry-potter-infos))
 
 ---
 
